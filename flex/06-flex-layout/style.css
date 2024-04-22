@@ -5,6 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -51,6 +55,7 @@ a{
 }
 
 .content{ 
+  flex: 1;
   display: flex;
   justify-content: center;
   flex-direction: column; 
@@ -62,6 +67,6 @@ a{
 
 .footer{
   /* flex-direction: column;  */
-  justify-content: end;
+  align-items: end;
   background-color: #eeeeee;
 }
