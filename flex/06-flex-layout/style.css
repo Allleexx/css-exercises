@@ -25,3 +25,43 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+/* Here do my changes start */
+
+
+ul {
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: grey;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.left-links,
+.right-links{
+  display: flex;
+  gap: 8px;
+}
+
+.content{ 
+  display: flex;
+  justify-content: center;
+  flex-direction: column; 
+  align-items: center;
+  padding-bottom: 10px;
+} 
+
+
+
+.footer{
+  /* flex-direction: column;  */
+  justify-content: end;
+  background-color: #eeeeee;
+}
